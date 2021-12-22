@@ -1,0 +1,43 @@
+html,
+body{
+    
+    font-family: Georgia;
+    color:white;
+    background-image: url('/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1 {
+    /* background-image: none;
+    margin: 100px 100px 100px 100px; */
+    font-family: cursive;
+}
+/* p {
+    margin: 100px 100px 100px 100px;
+} */
+.nav {
+    text-align: center;
+    /* background-color: #f1f3f5; */
+    padding: 20 0px;
+    font-size: 1rem;
+  }
+a {
+    padding: 10px 100px;
+    /* background-color: thistle; */
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar{
+    padding: 10px 10px;
+
+}
+.nav{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.name{
+    display: inline-block;
+    padding: 0px 40px;
+}
