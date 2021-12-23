@@ -22,7 +22,7 @@ h1 {
     padding: 20 0px;
     font-size: 1rem;
   }
-a {
+.nav-link {
     padding: 10px 100px;
     /* background-color: thistle; */
     text-decoration: none;
@@ -58,4 +58,7 @@ a {
     display: inline-block;
     max-width: 700px;
     margin: 0px 30px;
+}
+.basic{
+    margin: 45px 45px;
 }
