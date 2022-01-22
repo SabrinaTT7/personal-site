@@ -62,3 +62,47 @@ h1 {
 .basic{
     margin: 45px 45px;
 }
+.grid-container{
+    width: 1400px;
+    margin: 30px 30px;
+    display: inline-block;
+}
+.project-pic{
+    height: 100px;
+    width: 100px; 
+    padding: 0px;
+    margin: 0px 40px;
+    border-radius: 20%;
+}
+.boxes{
+    display: inline-block;
+}
+
+.hide{
+    display: none;
+}
+.hide:hover{
+    display:inline-block;
+    position: relative;
+    text-align: left;
+    margin: 0px 40px;
+}
+.hover-class:hover + .hide{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin: 0px 40px;
+}
+.top-left{
+  position:relative;
+  top: 15px;
+  left: 40px;
+}
+.contact-link {
+    padding: 10px 40px;
+    display: block;
+    /* background-color: thistle;  */
+    text-decoration: underline;
+    color: white;
+
+}
